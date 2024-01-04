@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_container{
+    height: 100vh;
+    background-color: #c4c4c4;
+}
+.rectangular{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle{
+    height: 140px;
+    width: 140px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+.handle{
+    height: 230px;
+    width: 30px;
+    background-color: darkcyan;
+    position: relative;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+.footer{
+    height: 50px;
+    width: 40px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
